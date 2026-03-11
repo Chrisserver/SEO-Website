@@ -1,0 +1,94 @@
+</head>
+
+<body>
+
+<main class="container">
+
+<h1>Cybersecurity FAQ</h1>
+
+<p class="subtitle">
+Answers to common questions about cybersecurity, online safety, and digital protection.
+</p>
+
+<!-- FAQ -->
+
+<div class="faq-item">
+<div class="faq-question">What is cybersecurity?</div>
+<div class="faq-answer">
+Cybersecurity is the practice of protecting systems, networks, applications, and data from digital attacks, unauthorized access, and disruption. It combines technology, security policies, and monitoring systems to protect sensitive information and infrastructure.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">Why is cybersecurity important?</div>
+<div class="faq-answer">
+Cybersecurity protects personal data, financial systems, and critical infrastructure such as hospitals, banks, and communication networks. Without strong cybersecurity practices, attackers could steal data, disrupt services, or gain control of systems.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">What are the most common cyber threats?</div>
+<div class="faq-answer">
+Common cyber threats include malware, phishing, ransomware, credential theft, and distributed denial-of-service attacks. These attacks attempt to exploit weaknesses in networks, software, or human behavior.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">What is phishing?</div>
+<div class="faq-answer">
+Phishing is a cyberattack where attackers send fraudulent emails or messages pretending to be trusted organizations in order to trick users into revealing passwords, financial information, or personal data.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">What does a cybersecurity professional do?</div>
+<div class="faq-answer">
+Cybersecurity professionals protect digital infrastructure by monitoring systems, identifying vulnerabilities, preventing attacks, and responding to security incidents. Their work involves network security, threat analysis, and risk management.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">Do you need a degree to work in cybersecurity?</div>
+<div class="faq-answer">
+Many cybersecurity professionals have degrees in computer science or information security, but certifications and practical skills can also lead to careers in cybersecurity.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">How can beginners start learning cybersecurity?</div>
+<div class="faq-answer">
+Beginners can start by learning networking fundamentals, operating systems, and basic security principles. Practical experience using tools such as Linux systems and security labs is also important.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">What is the difference between cybersecurity and information security?</div>
+<div class="faq-answer">
+Cybersecurity focuses on protecting digital systems and networks from attacks, while information security focuses more broadly on protecting information in any format, including physical documents and digital data.
+</div>
+</div>
+
+</main>
+
+<script>
+
+/* FAQ accordion */
+
+const faqItems = document.querySelectorAll(".faq-item");
+
+faqItems.forEach(item => {
+    item.querySelector(".faq-question").addEventListener("click", () => {
+        item.classList.toggle("active");
+    });
+});
+
+</script>
+
+<!-- Structured Data for SEO -->
+
+<script type="application/ld+json">
+
+{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [
