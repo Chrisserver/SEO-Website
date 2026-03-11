@@ -1,0 +1,54 @@
+body{
+    background:#0f1115;
+    color:#e6e6e6;
+    font-family:system-ui,-apple-system,Segoe UI,Roboto;
+    margin:0;
+}
+
+/* Center column like Reader Mode */
+
+.article-container{
+    max-width:720px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+/* Title */
+
+.article-header h1{
+    font-size:42px;
+    line-height:1.2;
+    margin-bottom:16px;
+}
+
+/* Subtitle */
+
+.article-subtitle{
+    font-size:20px;
+    color:#9aa3ad;
+    margin-bottom:20px;
+}
+
+/* Metadata line */
+
+.article-meta{
+    font-size:14px;
+    color:#7f8893;
+    margin-bottom:40px;
+}
+
+/* Article text */
+
+.article-content p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+/* Section titles */
+
+.article-content h2{
+    margin-top:40px;
+    margin-bottom:12px;
+    font-size:28px;
+}
